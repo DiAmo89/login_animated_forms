@@ -1,0 +1,27 @@
+<svg width="600" height="600" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="shadow">
+      <feDropShadow dx="3" dy="4" stdDeviation="4" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1f347a"/>
+      <stop offset="100%" stop-color="#708be6"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .title {
+      font-size: 500px;
+      filter: url(#shadow);
+    }
+  </style>
+  <text
+    x="50%"
+    y="350"
+    text-anchor="middle"
+    font-family="Palatino Linotype, Book Antiqua, serif"
+    class="title"
+    fill="url(#gradient)">
+    DiAmo StudioPay
+  </text>
+</svg>
